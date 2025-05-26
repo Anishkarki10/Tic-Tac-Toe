@@ -32,23 +32,24 @@ body{
 
 }
 #reset{
-  padding: 1rem;
+  padding: 10px;
   font-size: 1.25rem;
   background-color: white ;
   border-radius: 1rem;
   margin-bottom: 20px;
 }
 #new-Btn{
-    padding: 1rem;
+    padding: 10px;
   font-size: 1.25rem;
   background-color: white ;
   border-radius: 1rem;
 }
 #msg{
-    font-size: 8vmin;
+    font-size: 10vmin;
+    color: white;
 }
 .msg-container{
-    height: 40vmin;
+    height: 20vmin;
 }
 .hide{
     display: none;
@@ -63,4 +64,10 @@ body{
     text-decoration: none;
     color: blue;
     font-size: large;
+}
+@media only screen and (max-width: 600px) {
+#reset{
+ margin-top: 70px;
+    }
+
 }
