@@ -78,7 +78,7 @@ let boxes = document.querySelectorAll(".box");
         }
       }
 
-      // Check for draw
+
       let allFilled = true;
       boxes.forEach((box) => {
         if (box.innerText === "") {
